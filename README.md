@@ -1,10 +1,10 @@
-#Batch_sqlinsert: Postgres Insert Batcher
+# Batch_sqlinsert: Postgres Insert Batcher
 
 Provides fast inserting of high volumes of rows in a Postgres table.
 
 Typically used in a Rust language project using cargo.
 
-##Usage:
+## Usage:
 
 Assuming an existing table called test_batcher with a date_time, myint, and mystring column:
 
